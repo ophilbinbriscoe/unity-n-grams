@@ -10,18 +10,22 @@ using System.Text;
 namespace NGram
 {
 	[System.Serializable]
-	public abstract class RootBuilder<T,R> : IRootBuilder<T,R> where R : IList<T>
+	public abstract class WindowBase<T, TRoot> : IWindow<T, TRoot> where TRoot : IRoot<T>
 	{
 		[SerializeField]
+		[HideInInspector]
 		private T[] array;
 
 		[SerializeField]
-		private int foot;
-
-		[SerializeField]
+		[HideInInspector]
 		private int head;
 
 		[SerializeField]
+		[HideInInspector]
+		private int foot;
+
+		[SerializeField]
+		[HideInInspector]
 		private int size;
 
 		public T this[int index]
@@ -47,7 +51,15 @@ namespace NGram
 			}
 		}
 
-		public RootBuilder ( int capacity )
+		public int Capacity
+		{
+			get
+			{
+				return array.Length;
+			}
+		}
+
+		public WindowBase ( int capacity )
 		{
 			array = new T[capacity];
 		}
@@ -72,6 +84,13 @@ namespace NGram
 
 		public void Push ( T terminal )
 		{
+			if ( array.Length == 0 )
+			{
+				return;
+			}
+
+			array[head] = terminal;
+
 			if ( size == array.Length )
 			{
 				foot++;
@@ -81,15 +100,11 @@ namespace NGram
 				{
 					foot = 0;
 				}
-
-				array[head] = terminal;
 			}
 			else
 			{
 				size++;
 				head++;
-
-				array[head] = terminal;
 			}
 
 			if ( head == array.Length )
@@ -98,17 +113,25 @@ namespace NGram
 			}
 		}
 
-		public void Reset ( int capacity = -1 )
+		public void Clear ()
 		{
-			if ( array.Length != capacity )
-			{
-				array = new T[capacity];
-			}
-
 			head = 0;
 			foot = 0;
+			size = 0;
 		}
 
-		public abstract R ToRoot ();
+		public abstract TRoot ToRoot ();
+
+		public override string ToString ()
+		{
+			string str = string.Empty;
+
+			for ( int i = 0; i < size; i++ )
+			{
+				str += this[i];
+			}
+
+			return str;
+		}
 	}
 }

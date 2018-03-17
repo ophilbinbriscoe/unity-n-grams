@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40b145078de40234fb652305bd2d960b, type: 3}
+  m_Name: LeftRight
+  m_EditorClassIdentifier: Assembly-CSharp:NGram.Samples:CharModel
+  n: 3
+  domain: 4c005200
+  trainingSequence: LLLLLLRRRRRRLRLRLRLRLRLRLRLRLRLLLLLRRRRR
+  train: 0
+  nGrams:
+  - n: 1
+    roots:
+    - array: 
+    pairs:
+    - key: 0
+      value:
+        sampleCount: 39
+        predictionIndex: 1
+  - n: 2
+    roots:
+    - array: 4c00
+    - array: 5200
+    pairs:
+    - key: 0
+      value:
+        sampleCount: 19
+        predictionIndex: 1
+    - key: 1
+      value:
+        sampleCount: 18
+        predictionIndex: 0
+  - n: 3
+    roots:
+    - array: 4c004c00
+    - array: 4c005200
+    - array: 52004c00
+    - array: 52005200
+    pairs:
+    - key: 0
+      value:
+        sampleCount: 8
+        predictionIndex: 0
+    - key: 1
+      value:
+        sampleCount: 11
+        predictionIndex: 0
+    - key: 2
+      value:
+        sampleCount: 10
+        predictionIndex: 1
+    - key: 3
+      value:
+        sampleCount: 6
+        predictionIndex: 1
+  windows:
+  - array: 
+    head: 0
+    foot: 0
+    size: 0
+  - array: 5200
+    head: 0
+    foot: 0
+    size: 1
+  - array: 52005200
+    head: 1
+    foot: 1
+    size: 2

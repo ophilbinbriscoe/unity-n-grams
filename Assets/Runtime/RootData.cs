@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using System;
-using System.Text;
-
 namespace NGram
 {
+	/// <summary>
+	/// Tuple storing the domain index of the element predicted to follow a particular root, as well as the number of samples considered to arrive at that prediction.
+	/// </summary>
 	[System.Serializable]
-	public class RootData<T>
+	public class RootData
 	{
 		[SerializeField]
 		private int sampleCount;
@@ -24,20 +24,20 @@ namespace NGram
 		}
 
 		[SerializeField]
-		private T prediction;
+		private int predictionIndex;
 
-		public T Prediction
+		public int PredictionIndex
 		{
 			get
 			{
-				return prediction;
+				return predictionIndex;
 			}
 		}
 
-		public RootData ( int sampleCount, T prediction )
+		public RootData ( int sampleCount, int predictionIndex )
 		{
 			this.sampleCount = sampleCount;
-			this.prediction = prediction;
+			this.predictionIndex = predictionIndex;
 		}
 	}
 }
