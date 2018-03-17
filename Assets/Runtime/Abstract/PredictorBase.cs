@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace NGram
 {
-	public abstract class PredictorBase<T, TRoot, TNGram, TWindow, TModel, TPrediction> : MonoBehaviour where TRoot : IRoot<T> where TNGram : INGram<T> where TWindow : IWindow<T, TRoot> where TModel : IModel<T> where TPrediction : Prediction<T>
+	public abstract class PredictorBase<T, TRoot, TNGram, TWindow, TModel, TPrediction> : MonoBehaviour where TRoot : IRoot<T> where TNGram : INGram<T> where TWindow : IWindow<T, TRoot> where TModel : IModel<T> where TPrediction : Prediction<T>, new()
 	{
 		[SerializeField]
 		[Tooltip( "Model used to generate predictions." )]
@@ -78,6 +78,11 @@ namespace NGram
 			else
 			{
 				initialized = false;
+
+				if ( prediction == null )
+				{
+					prediction = new TPrediction();
+				}
 
 				RandomizePredictionIndex();
 

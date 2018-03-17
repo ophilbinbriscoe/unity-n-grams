@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace NGram
 {
-	public abstract class ModelBase<T, TRoot, TNGram, TWindow, TSequence> : ScriptableObject, IModel<T> where TRoot : IRoot<T> where TNGram : INGram<T> where TWindow : IWindow<T, TRoot>
+	public abstract class ModelBase<T, TRoot, TNGram, TWindow, TSequence> : ModelEditorBase, IModel<T> where TRoot : IRoot<T> where TNGram : INGram<T> where TWindow : IWindow<T, TRoot>
 	{
 		[Header( "Parameters" )]
 

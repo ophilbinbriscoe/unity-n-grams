@@ -1,0 +1,1559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec55b3ecb40edd479ae95412d59119b, type: 3}
+  m_Name: Words
+  m_EditorClassIdentifier: 
+  n: 2
+  domain:
+  - appear
+  - also
+  - fruit
+  - i
+  - fish
+  - he
+  - called
+  - wherein
+  - in
+  - fowl
+  - firmament
+  - be
+  - yielding
+  - sea.
+  - place
+  - seas
+  - whose
+  - they're,
+  - days
+  - darkness
+  - form
+  - creature
+  - thing,
+  - whales
+  - upon
+  - let
+  - moved
+  - unto
+  - you're
+  - herb.
+  - waters
+  - their
+  - morning
+  - of.
+  - without
+  - subdue
+  - beginning
+  - after
+  - light
+  - to
+  - man
+  - great
+  - life
+  - you'll
+  - female
+  - is.
+  - all
+  - moving,
+  - grass
+  - beast
+  - signs
+  - made
+  - god,
+  - signs.
+  - without.
+  - fourth
+  - be,
+  - greater
+  - our
+  - bearing
+  - given
+  - itself,
+  - years
+  - after.
+  - every.
+  - stars
+  - from
+  - waters.
+  - likeness
+  - have
+  - forth
+  - the
+  - doesn't
+  - seasons
+  - behold
+  - heaven
+  - blessed
+  - replenish
+  - behold.
+  - us
+  - god
+  - above
+  - winged
+  - isn't
+  - hath
+  - divide
+  - living
+  - spirit
+  - fruitful
+  - abundantly
+  - lesser
+  - she'd
+  - every
+  - fly,
+  - fifth.
+  - void.
+  - kind
+  - i.
+  - may
+  - one
+  - cattle
+  - good
+  - fish.
+  - moving
+  - lights
+  - multiply
+  - shall.
+  - heaven.
+  - together
+  - fly
+  - dominion,
+  - darkness,
+  - third
+  - gathering
+  - a
+  - earth
+  - under
+  - which.
+  - of
+  - over
+  - had
+  - first
+  - moveth.
+  - day
+  - subdue.
+  - fruit.
+  - heaven,
+  - that
+  - saw
+  - be.
+  - saying
+  - fill
+  - they're
+  - moveth,
+  - very
+  - image
+  - so.
+  - was
+  - set
+  - shall
+  - face
+  - sixth
+  - grass.
+  - created
+  - moveth
+  - gathered
+  - make
+  - open
+  - him,
+  - image.
+  - void
+  - sea
+  - evening
+  - own.
+  - fourth.
+  - midst
+  - and
+  - land
+  - day.
+  - rule
+  - air
+  - have.
+  - creeping
+  - whose,
+  - it
+  - them
+  - brought
+  - two
+  - meat
+  - abundantly.
+  - place.
+  - darkness.
+  - male
+  - in.
+  trainingSequence: {fileID: 4900000, guid: 728b20d3b7d56734a96144927ec133d0, type: 3}
+  train: 0
+  nGrams:
+  - n: 1
+    roots:
+    - array: []
+    pairs:
+    - key: 0
+      value:
+        sampleCount: 299
+        predictionIndex: 27
+  - n: 2
+    roots:
+    - array:
+      - appear
+    - array:
+      - also
+    - array:
+      - fruit
+    - array:
+      - i
+    - array:
+      - fish
+    - array:
+      - he
+    - array:
+      - called
+    - array:
+      - wherein
+    - array:
+      - in
+    - array:
+      - fowl
+    - array:
+      - firmament
+    - array:
+      - be
+    - array:
+      - yielding
+    - array:
+      - sea.
+    - array:
+      - place
+    - array:
+      - seas
+    - array:
+      - whose
+    - array:
+      - they're,
+    - array:
+      - days
+    - array:
+      - darkness
+    - array:
+      - form
+    - array:
+      - creature
+    - array:
+      - thing,
+    - array:
+      - whales
+    - array:
+      - upon
+    - array:
+      - let
+    - array:
+      - moved
+    - array:
+      - unto
+    - array:
+      - you're
+    - array:
+      - herb.
+    - array:
+      - waters
+    - array:
+      - their
+    - array:
+      - morning
+    - array:
+      - of.
+    - array:
+      - without
+    - array:
+      - subdue
+    - array:
+      - beginning
+    - array:
+      - after
+    - array:
+      - light
+    - array:
+      - to
+    - array:
+      - man
+    - array:
+      - great
+    - array:
+      - life
+    - array:
+      - you'll
+    - array:
+      - female
+    - array:
+      - is.
+    - array:
+      - all
+    - array:
+      - moving,
+    - array:
+      - grass
+    - array:
+      - beast
+    - array:
+      - signs
+    - array:
+      - made
+    - array:
+      - god,
+    - array:
+      - signs.
+    - array:
+      - without.
+    - array:
+      - fourth
+    - array:
+      - be,
+    - array:
+      - greater
+    - array:
+      - our
+    - array:
+      - bearing
+    - array:
+      - given
+    - array:
+      - itself,
+    - array:
+      - years
+    - array:
+      - after.
+    - array:
+      - every.
+    - array:
+      - stars
+    - array:
+      - from
+    - array:
+      - waters.
+    - array:
+      - likeness
+    - array:
+      - have
+    - array:
+      - forth
+    - array:
+      - the
+    - array:
+      - doesn't
+    - array:
+      - seasons
+    - array:
+      - behold
+    - array:
+      - heaven
+    - array:
+      - blessed
+    - array:
+      - replenish
+    - array:
+      - behold.
+    - array:
+      - us
+    - array:
+      - god
+    - array:
+      - above
+    - array:
+      - winged
+    - array:
+      - isn't
+    - array:
+      - hath
+    - array:
+      - divide
+    - array:
+      - living
+    - array:
+      - spirit
+    - array:
+      - fruitful
+    - array:
+      - abundantly
+    - array:
+      - lesser
+    - array:
+      - she'd
+    - array:
+      - every
+    - array:
+      - fly,
+    - array:
+      - fifth.
+    - array:
+      - void.
+    - array:
+      - kind
+    - array:
+      - i.
+    - array:
+      - may
+    - array:
+      - one
+    - array:
+      - cattle
+    - array:
+      - good
+    - array:
+      - fish.
+    - array:
+      - moving
+    - array:
+      - lights
+    - array:
+      - multiply
+    - array:
+      - shall.
+    - array:
+      - heaven.
+    - array:
+      - together
+    - array:
+      - fly
+    - array:
+      - dominion,
+    - array:
+      - darkness,
+    - array:
+      - third
+    - array:
+      - gathering
+    - array:
+      - a
+    - array:
+      - earth
+    - array:
+      - under
+    - array:
+      - which.
+    - array:
+      - of
+    - array:
+      - over
+    - array:
+      - had
+    - array:
+      - first
+    - array:
+      - moveth.
+    - array:
+      - day
+    - array:
+      - subdue.
+    - array:
+      - fruit.
+    - array:
+      - heaven,
+    - array:
+      - that
+    - array:
+      - saw
+    - array:
+      - be.
+    - array:
+      - saying
+    - array:
+      - fill
+    - array:
+      - they're
+    - array:
+      - moveth,
+    - array:
+      - very
+    - array:
+      - image
+    - array:
+      - so.
+    - array:
+      - was
+    - array:
+      - set
+    - array:
+      - shall
+    - array:
+      - face
+    - array:
+      - sixth
+    - array:
+      - grass.
+    - array:
+      - created
+    - array:
+      - moveth
+    - array:
+      - gathered
+    - array:
+      - make
+    - array:
+      - open
+    - array:
+      - him,
+    - array:
+      - image.
+    - array:
+      - void
+    - array:
+      - sea
+    - array:
+      - evening
+    - array:
+      - own.
+    - array:
+      - fourth.
+    - array:
+      - midst
+    - array:
+      - and
+    - array:
+      - land
+    - array:
+      - day.
+    - array:
+      - rule
+    - array:
+      - air
+    - array:
+      - have.
+    - array:
+      - creeping
+    - array:
+      - whose,
+    - array:
+      - it
+    - array:
+      - them
+    - array:
+      - brought
+    - array:
+      - two
+    - array:
+      - meat
+    - array:
+      - abundantly.
+    - array:
+      - place.
+    - array:
+      - darkness.
+    - array:
+      - male
+    - array:
+      - in.
+    pairs:
+    - key: 0
+      value:
+        sampleCount: 1
+        predictionIndex: 129
+    - key: 1
+      value:
+        sampleCount: 1
+        predictionIndex: 2
+    - key: 2
+      value:
+        sampleCount: 2
+        predictionIndex: 3
+    - key: 3
+      value:
+        sampleCount: 3
+        predictionIndex: 4
+    - key: 4
+      value:
+        sampleCount: 4
+        predictionIndex: 5
+    - key: 5
+      value:
+        sampleCount: 4
+        predictionIndex: 6
+    - key: 6
+      value:
+        sampleCount: 2
+        predictionIndex: 7
+    - key: 7
+      value:
+        sampleCount: 3
+        predictionIndex: 8
+    - key: 8
+      value:
+        sampleCount: 2
+        predictionIndex: 9
+    - key: 9
+      value:
+        sampleCount: 2
+        predictionIndex: 10
+    - key: 10
+      value:
+        sampleCount: 5
+        predictionIndex: 3
+    - key: 11
+      value:
+        sampleCount: 3
+        predictionIndex: 12
+    - key: 12
+      value:
+        sampleCount: 2
+        predictionIndex: 13
+    - key: 13
+      value:
+        sampleCount: 1
+        predictionIndex: 14
+    - key: 14
+      value:
+        sampleCount: 1
+        predictionIndex: 15
+    - key: 15
+      value:
+        sampleCount: 2
+        predictionIndex: 16
+    - key: 16
+      value:
+        sampleCount: 1
+        predictionIndex: 17
+    - key: 17
+      value:
+        sampleCount: 1
+        predictionIndex: 18
+    - key: 18
+      value:
+        sampleCount: 2
+        predictionIndex: 19
+    - key: 19
+      value:
+        sampleCount: 1
+        predictionIndex: 20
+    - key: 20
+      value:
+        sampleCount: 1
+        predictionIndex: 21
+    - key: 21
+      value:
+        sampleCount: 4
+        predictionIndex: 22
+    - key: 22
+      value:
+        sampleCount: 1
+        predictionIndex: 23
+    - key: 23
+      value:
+        sampleCount: 3
+        predictionIndex: 24
+    - key: 24
+      value:
+        sampleCount: 4
+        predictionIndex: 25
+    - key: 25
+      value:
+        sampleCount: 3
+        predictionIndex: 26
+    - key: 26
+      value:
+        sampleCount: 2
+        predictionIndex: 27
+    - key: 27
+      value:
+        sampleCount: 6
+        predictionIndex: 105
+    - key: 28
+      value:
+        sampleCount: 3
+        predictionIndex: 29
+    - key: 29
+      value:
+        sampleCount: 1
+        predictionIndex: 30
+    - key: 30
+      value:
+        sampleCount: 2
+        predictionIndex: 31
+    - key: 31
+      value:
+        sampleCount: 3
+        predictionIndex: 27
+    - key: 32
+      value:
+        sampleCount: 1
+        predictionIndex: 33
+    - key: 33
+      value:
+        sampleCount: 2
+        predictionIndex: 34
+    - key: 34
+      value:
+        sampleCount: 2
+        predictionIndex: 28
+    - key: 35
+      value:
+        sampleCount: 3
+        predictionIndex: 25
+    - key: 36
+      value:
+        sampleCount: 1
+        predictionIndex: 37
+    - key: 37
+      value:
+        sampleCount: 2
+        predictionIndex: 4
+    - key: 38
+      value:
+        sampleCount: 2
+        predictionIndex: 39
+    - key: 39
+      value:
+        sampleCount: 2
+        predictionIndex: 40
+    - key: 40
+      value:
+        sampleCount: 4
+        predictionIndex: 7
+    - key: 41
+      value:
+        sampleCount: 1
+        predictionIndex: 42
+    - key: 42
+      value:
+        sampleCount: 3
+        predictionIndex: 21
+    - key: 43
+      value:
+        sampleCount: 1
+        predictionIndex: 44
+    - key: 44
+      value:
+        sampleCount: 3
+        predictionIndex: 45
+    - key: 45
+      value:
+        sampleCount: 1
+        predictionIndex: 46
+    - key: 46
+      value:
+        sampleCount: 2
+        predictionIndex: 47
+    - key: 47
+      value:
+        sampleCount: 1
+        predictionIndex: 10
+    - key: 48
+      value:
+        sampleCount: 2
+        predictionIndex: 49
+    - key: 49
+      value:
+        sampleCount: 1
+        predictionIndex: 31
+    - key: 50
+      value:
+        sampleCount: 1
+        predictionIndex: 51
+    - key: 51
+      value:
+        sampleCount: 2
+        predictionIndex: 52
+    - key: 52
+      value:
+        sampleCount: 1
+        predictionIndex: 53
+    - key: 53
+      value:
+        sampleCount: 1
+        predictionIndex: 54
+    - key: 54
+      value:
+        sampleCount: 2
+        predictionIndex: 55
+    - key: 55
+      value:
+        sampleCount: 3
+        predictionIndex: 6
+    - key: 56
+      value:
+        sampleCount: 1
+        predictionIndex: 46
+    - key: 57
+      value:
+        sampleCount: 2
+        predictionIndex: 58
+    - key: 58
+      value:
+        sampleCount: 4
+        predictionIndex: 54
+    - key: 59
+      value:
+        sampleCount: 3
+        predictionIndex: 5
+    - key: 60
+      value:
+        sampleCount: 2
+        predictionIndex: 37
+    - key: 61
+      value:
+        sampleCount: 1
+        predictionIndex: 62
+    - key: 62
+      value:
+        sampleCount: 1
+        predictionIndex: 63
+    - key: 63
+      value:
+        sampleCount: 1
+        predictionIndex: 64
+    - key: 64
+      value:
+        sampleCount: 1
+        predictionIndex: 65
+    - key: 65
+      value:
+        sampleCount: 2
+        predictionIndex: 42
+    - key: 66
+      value:
+        sampleCount: 1
+        predictionIndex: 67
+    - key: 67
+      value:
+        sampleCount: 1
+        predictionIndex: 68
+    - key: 68
+      value:
+        sampleCount: 3
+        predictionIndex: 2
+    - key: 69
+      value:
+        sampleCount: 1
+        predictionIndex: 51
+    - key: 70
+      value:
+        sampleCount: 3
+        predictionIndex: 27
+    - key: 71
+      value:
+        sampleCount: 2
+        predictionIndex: 72
+    - key: 72
+      value:
+        sampleCount: 3
+        predictionIndex: 5
+    - key: 73
+      value:
+        sampleCount: 1
+        predictionIndex: 74
+    - key: 74
+      value:
+        sampleCount: 1
+        predictionIndex: 75
+    - key: 75
+      value:
+        sampleCount: 2
+        predictionIndex: 31
+    - key: 76
+      value:
+        sampleCount: 1
+        predictionIndex: 40
+    - key: 77
+      value:
+        sampleCount: 1
+        predictionIndex: 78
+    - key: 78
+      value:
+        sampleCount: 1
+        predictionIndex: 57
+    - key: 79
+      value:
+        sampleCount: 3
+        predictionIndex: 34
+    - key: 80
+      value:
+        sampleCount: 2
+        predictionIndex: 81
+    - key: 81
+      value:
+        sampleCount: 2
+        predictionIndex: 82
+    - key: 82
+      value:
+        sampleCount: 3
+        predictionIndex: 23
+    - key: 83
+      value:
+        sampleCount: 1
+        predictionIndex: 35
+    - key: 84
+      value:
+        sampleCount: 2
+        predictionIndex: 0
+    - key: 85
+      value:
+        sampleCount: 3
+        predictionIndex: 30
+    - key: 86
+      value:
+        sampleCount: 1
+        predictionIndex: 87
+    - key: 87
+      value:
+        sampleCount: 3
+        predictionIndex: 4
+    - key: 88
+      value:
+        sampleCount: 3
+        predictionIndex: 89
+    - key: 89
+      value:
+        sampleCount: 3
+        predictionIndex: 11
+    - key: 90
+      value:
+        sampleCount: 1
+        predictionIndex: 88
+    - key: 91
+      value:
+        sampleCount: 3
+        predictionIndex: 58
+    - key: 92
+      value:
+        sampleCount: 1
+        predictionIndex: 93
+    - key: 93
+      value:
+        sampleCount: 1
+        predictionIndex: 94
+    - key: 94
+      value:
+        sampleCount: 1
+        predictionIndex: 95
+    - key: 95
+      value:
+        sampleCount: 1
+        predictionIndex: 96
+    - key: 96
+      value:
+        sampleCount: 4
+        predictionIndex: 44
+    - key: 97
+      value:
+        sampleCount: 1
+        predictionIndex: 59
+    - key: 98
+      value:
+        sampleCount: 3
+        predictionIndex: 25
+    - key: 99
+      value:
+        sampleCount: 2
+        predictionIndex: 79
+    - key: 100
+      value:
+        sampleCount: 1
+        predictionIndex: 101
+    - key: 101
+      value:
+        sampleCount: 1
+        predictionIndex: 102
+    - key: 102
+      value:
+        sampleCount: 1
+        predictionIndex: 103
+    - key: 103
+      value:
+        sampleCount: 3
+        predictionIndex: 68
+    - key: 104
+      value:
+        sampleCount: 1
+        predictionIndex: 3
+    - key: 105
+      value:
+        sampleCount: 2
+        predictionIndex: 18
+    - key: 106
+      value:
+        sampleCount: 1
+        predictionIndex: 72
+    - key: 107
+      value:
+        sampleCount: 1
+        predictionIndex: 108
+    - key: 108
+      value:
+        sampleCount: 1
+        predictionIndex: 109
+    - key: 109
+      value:
+        sampleCount: 3
+        predictionIndex: 110
+    - key: 110
+      value:
+        sampleCount: 1
+        predictionIndex: 80
+    - key: 111
+      value:
+        sampleCount: 1
+        predictionIndex: 112
+    - key: 112
+      value:
+        sampleCount: 4
+        predictionIndex: 9
+    - key: 113
+      value:
+        sampleCount: 2
+        predictionIndex: 114
+    - key: 114
+      value:
+        sampleCount: 1
+        predictionIndex: 15
+    - key: 115
+      value:
+        sampleCount: 2
+        predictionIndex: 88
+    - key: 116
+      value:
+        sampleCount: 2
+        predictionIndex: 11
+    - key: 117
+      value:
+        sampleCount: 1
+        predictionIndex: 118
+    - key: 118
+      value:
+        sampleCount: 1
+        predictionIndex: 55
+    - key: 119
+      value:
+        sampleCount: 2
+        predictionIndex: 28
+    - key: 120
+      value:
+        sampleCount: 2
+        predictionIndex: 21
+    - key: 121
+      value:
+        sampleCount: 2
+        predictionIndex: 10
+    - key: 122
+      value:
+        sampleCount: 1
+        predictionIndex: 91
+    - key: 123
+      value:
+        sampleCount: 1
+        predictionIndex: 124
+    - key: 124
+      value:
+        sampleCount: 1
+        predictionIndex: 70
+    - key: 125
+      value:
+        sampleCount: 1
+        predictionIndex: 126
+    - key: 126
+      value:
+        sampleCount: 1
+        predictionIndex: 116
+    - key: 127
+      value:
+        sampleCount: 3
+        predictionIndex: 12
+    - key: 128
+      value:
+        sampleCount: 1
+        predictionIndex: 84
+    - key: 129
+      value:
+        sampleCount: 2
+        predictionIndex: 10
+    - key: 130
+      value:
+        sampleCount: 1
+        predictionIndex: 131
+    - key: 131
+      value:
+        sampleCount: 1
+        predictionIndex: 132
+    - key: 132
+      value:
+        sampleCount: 2
+        predictionIndex: 79
+    - key: 133
+      value:
+        sampleCount: 1
+        predictionIndex: 33
+    - key: 134
+      value:
+        sampleCount: 1
+        predictionIndex: 135
+    - key: 135
+      value:
+        sampleCount: 1
+        predictionIndex: 136
+    - key: 136
+      value:
+        sampleCount: 2
+        predictionIndex: 132
+    - key: 137
+      value:
+        sampleCount: 1
+        predictionIndex: 98
+    - key: 138
+      value:
+        sampleCount: 2
+        predictionIndex: 58
+    - key: 139
+      value:
+        sampleCount: 1
+        predictionIndex: 99
+    - key: 140
+      value:
+        sampleCount: 1
+        predictionIndex: 10
+    - key: 141
+      value:
+        sampleCount: 1
+        predictionIndex: 142
+    - key: 142
+      value:
+        sampleCount: 1
+        predictionIndex: 143
+    - key: 143
+      value:
+        sampleCount: 1
+        predictionIndex: 144
+    - key: 144
+      value:
+        sampleCount: 1
+        predictionIndex: 24
+    - key: 145
+      value:
+        sampleCount: 1
+        predictionIndex: 146
+    - key: 146
+      value:
+        sampleCount: 1
+        predictionIndex: 120
+    - key: 147
+      value:
+        sampleCount: 1
+        predictionIndex: 148
+    - key: 148
+      value:
+        sampleCount: 1
+        predictionIndex: 71
+    - key: 149
+      value:
+        sampleCount: 1
+        predictionIndex: 150
+    - key: 150
+      value:
+        sampleCount: 2
+        predictionIndex: 151
+    - key: 151
+      value:
+        sampleCount: 1
+        predictionIndex: 24
+    - key: 152
+      value:
+        sampleCount: 1
+        predictionIndex: 153
+    - key: 153
+      value:
+        sampleCount: 2
+        predictionIndex: 58
+    - key: 154
+      value:
+        sampleCount: 1
+        predictionIndex: 96
+    - key: 155
+      value:
+        sampleCount: 1
+        predictionIndex: 156
+    - key: 156
+      value:
+        sampleCount: 1
+        predictionIndex: 21
+    - key: 157
+      value:
+        sampleCount: 1
+        predictionIndex: 158
+    - key: 158
+      value:
+        sampleCount: 1
+        predictionIndex: 82
+    - key: 159
+      value:
+        sampleCount: 1
+        predictionIndex: 7
+    - key: 160
+      value:
+        sampleCount: 1
+        predictionIndex: 39
+    - key: 161
+      value:
+        sampleCount: 1
+        predictionIndex: 27
+    - key: 162
+      value:
+        sampleCount: 1
+        predictionIndex: 163
+    - key: 163
+      value:
+        sampleCount: 1
+        predictionIndex: 164
+    - key: 164
+      value:
+        sampleCount: 1
+        predictionIndex: 165
+    - key: 165
+      value:
+        sampleCount: 1
+        predictionIndex: 166
+    - key: 166
+      value:
+        sampleCount: 1
+        predictionIndex: 8
+    - key: 167
+      value:
+        sampleCount: 1
+        predictionIndex: 89
+    - key: 168
+      value:
+        sampleCount: 1
+        predictionIndex: 112
+    - key: 169
+      value:
+        sampleCount: 1
+        predictionIndex: 170
+    - key: 170
+      value:
+        sampleCount: 1
+        predictionIndex: 68
+    - key: 171
+      value:
+        sampleCount: 1
+        predictionIndex: 172
+    - key: 172
+      value:
+        sampleCount: 0
+        predictionIndex: 0
+    - key: 173
+      value:
+        sampleCount: 0
+        predictionIndex: 0
+  windows:
+  - array: []
+    head: 0
+    foot: 0
+    size: 0
+  - array:
+    - darkness.
+    head: 0
+    foot: 0
+    size: 1
+  tokens:
+  - appear
+  - also
+  - fruit
+  - i
+  - fish
+  - he
+  - called
+  - wherein
+  - in
+  - fowl
+  - firmament
+  - he
+  - be
+  - yielding
+  - sea.
+  - place
+  - seas
+  - whose
+  - they're,
+  - days
+  - darkness
+  - form
+  - creature
+  - thing,
+  - whales
+  - upon
+  - let
+  - moved
+  - unto
+  - you're
+  - herb.
+  - waters
+  - their
+  - unto
+  - morning
+  - of.
+  - without
+  - you're
+  - subdue
+  - let
+  - beginning
+  - after
+  - fish
+  - light
+  - to
+  - man
+  - wherein
+  - whales
+  - subdue
+  - unto
+  - great
+  - life
+  - creature
+  - life
+  - you'll
+  - female
+  - is.
+  - all
+  - moving,
+  - firmament
+  - i
+  - moved
+  - grass
+  - beast
+  - their
+  - signs
+  - made
+  - god,
+  - signs.
+  - without.
+  - fourth
+  - be,
+  - all
+  - greater
+  - our
+  - bearing
+  - he
+  - given
+  - itself,
+  - years
+  - after.
+  - every.
+  - stars
+  - from
+  - waters.
+  - likeness
+  - fish
+  - have
+  - made
+  - forth
+  - the
+  - doesn't
+  - seasons
+  - behold
+  - heaven
+  - female
+  - blessed
+  - man
+  - replenish
+  - behold.
+  - greater
+  - us
+  - god
+  - above
+  - winged
+  - whales
+  - upon
+  - isn't
+  - subdue
+  - hath
+  - divide
+  - waters
+  - living
+  - spirit
+  - fruitful
+  - abundantly
+  - be
+  - fourth
+  - man
+  - lesser
+  - fruitful
+  - she'd
+  - every
+  - fly,
+  - fifth.
+  - void.
+  - kind
+  - i.
+  - bearing
+  - may
+  - let
+  - forth
+  - heaven
+  - their
+  - one
+  - cattle
+  - good
+  - fish.
+  - moving
+  - lights
+  - i
+  - unto
+  - multiply
+  - shall.
+  - doesn't
+  - heaven.
+  - together
+  - fly
+  - dominion,
+  - god
+  - darkness,
+  - third
+  - gathering
+  - a
+  - seas
+  - earth
+  - fruitful
+  - under
+  - be
+  - which.
+  - of
+  - fourth
+  - called
+  - over
+  - had
+  - creature
+  - first
+  - moveth.
+  - she'd
+  - our
+  - day
+  - subdue.
+  - forth
+  - unto
+  - multiply
+  - days
+  - third
+  - fruit.
+  - heaven,
+  - under
+  - spirit
+  - moving
+  - that
+  - over
+  - you're
+  - saw
+  - hath
+  - appear
+  - be.
+  - saying
+  - fill
+  - they're
+  - moveth,
+  - of.
+  - light
+  - given
+  - after
+  - very
+  - image
+  - so.
+  - was
+  - may
+  - she'd
+  - set
+  - our
+  - shall
+  - one
+  - us
+  - face
+  - firmament
+  - sixth
+  - grass.
+  - created
+  - moveth
+  - upon
+  - gathered
+  - make
+  - had
+  - open
+  - him,
+  - the
+  - divide
+  - grass
+  - earth
+  - image.
+  - void
+  - sea
+  - upon
+  - stars
+  - life
+  - evening
+  - own.
+  - our
+  - without.
+  - spirit
+  - fish
+  - gathering
+  - fourth.
+  - kind
+  - midst
+  - and
+  - creature
+  - land
+  - day.
+  - winged
+  - abundantly
+  - above
+  - fly
+  - rule
+  - wherein
+  - divide
+  - third
+  - fly
+  - void
+  - air
+  - to
+  - have.
+  - unto
+  - kind
+  - creeping
+  - whose,
+  - it
+  - them
+  - brought
+  - in
+  - bearing
+  - be.
+  - firmament
+  - may
+  - own.
+  - two
+  - abundantly
+  - meat
+  - third
+  - fowl
+  - so.
+  - they're
+  - us
+  - without
+  - man
+  - doesn't
+  - he
+  - moving
+  - likeness
+  - that
+  - set
+  - that
+  - yielding
+  - abundantly.
+  - place.
+  - likeness
+  - fruit
+  - first
+  - firmament
+  - winged
+  - kind
+  - female
+  - darkness.
+  - male
+  - in.
+  tokenizedAsset: {fileID: 4900000, guid: 728b20d3b7d56734a96144927ec133d0, type: 3}

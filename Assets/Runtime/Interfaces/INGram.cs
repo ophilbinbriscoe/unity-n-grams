@@ -9,7 +9,7 @@ namespace NGram
 	public interface INGram<T>
 	{
 		int N { get; }
-		void Train<Root> ( IList<T> domain, System.Func<int, T> sequence, int sequenceLength, IWindow<T, Root> builder ) where Root : IRoot<T>;
+		void Train ( IList<T> domain, System.Func<int, T> sequence, int sequenceLength, IWindow<T> builder );
 		RootData GetRootData ( IRoot<T> root );
 	}
 }

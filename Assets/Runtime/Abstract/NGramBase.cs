@@ -27,7 +27,7 @@ namespace NGram
 		/// <param name="domain">Possibile values.</param>
 		/// <param name="sequence">Training sequence.</param>
 		/// <param name="window"><see cref="WindowBase{T, Root}"/> with Capacity of <see cref="N"/> less one.</param>
-		public abstract void Train<Root> ( IList<T> domain, System.Func<int, T> sequence, int sequenceLength, IWindow<T, Root> window ) where Root : IRoot<T>;
+		public abstract void Train ( IList<T> domain, System.Func<int, T> sequence, int sequenceLength, IWindow<T> window );
 
 		/// <summary>
 		/// Lookup the <see cref="RootData"/> for a given <see cref="RootBase{T}"/>.
